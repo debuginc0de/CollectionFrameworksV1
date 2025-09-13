@@ -15,6 +15,8 @@ public class CollectionsDemo {
         list.add(0);
 
 
+        Collections.sort(list);
+        System.out.println(list);
         Collections.sort(list,Collections.reverseOrder());
         System.out.println(list);
         System.out.println(Collections.max(list));
